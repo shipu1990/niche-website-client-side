@@ -13,7 +13,7 @@ const Rating = () => {
     }
     const [ratings, setRatings] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/review')
+        fetch('https://enigmatic-atoll-76450.herokuapp.com/review')
         .then(res => res.json())
         .then(data=> setRatings(data))
     },[])

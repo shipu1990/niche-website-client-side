@@ -6,7 +6,7 @@ const AddWatch = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
     const onSubmit = (data) => {
-        fetch("http://localhost:5000/addWatch", {
+        fetch("https://enigmatic-atoll-76450.herokuapp.com/addWatch", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(data),

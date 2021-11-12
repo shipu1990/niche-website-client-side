@@ -14,14 +14,14 @@ const Booking = () => {
         backgroundImage: `url(${shopBanner})`
     }
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
-    
+
     const {user} = useAuth();
    
     const { watchId } = useParams();
     
     const [watch, setWatches] = useState({})
     useEffect(()=>{
-        fetch(`http://localhost:5000/watches/${watchId}`)
+        fetch(`https://enigmatic-atoll-76450.herokuapp.com/watches/${watchId}`)
         .then(res => res.json())
         .then(data => setWatches(data))
     } ,[])
@@ -41,7 +41,7 @@ const Booking = () => {
             ...bookingInfo,
             status: "pending",
         }
-        fetch("http://localhost:5000/addBooking", {
+        fetch("https://enigmatic-atoll-76450.herokuapp.com/addBooking", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(booking),

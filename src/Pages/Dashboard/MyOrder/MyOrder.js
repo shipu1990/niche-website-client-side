@@ -10,7 +10,7 @@ const MyOrder = () => {
     const [watches, setWatches] = useState([])
 
     useEffect(()=>{
-        const url = `http://localhost:5000/orders/${user.email}`;
+        const url = `https://enigmatic-atoll-76450.herokuapp.com/orders/${user.email}`;
         console.log(url);
         fetch(url)
         .then(res => res.json())
@@ -18,7 +18,7 @@ const MyOrder = () => {
     } ,[watches])
 
     const handleDelete = (id) => {
-        fetch(`http://localhost:5000/ordersDelete/${id}`, {
+        fetch(`https://enigmatic-atoll-76450.herokuapp.com/ordersDelete/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

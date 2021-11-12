@@ -6,7 +6,7 @@ import ShopBanner from './ShopBanner';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/watches')
+        fetch('https://enigmatic-atoll-76450.herokuapp.com/watches')
         .then(res => res.json())
         .then(data=> setProducts(data))
     },[])
