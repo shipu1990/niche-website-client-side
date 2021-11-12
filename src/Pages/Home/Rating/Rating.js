@@ -1,0 +1,42 @@
+
+import React, { useEffect, useState } from 'react';
+import {Col } from 'react-bootstrap';
+import ratingBackground from '../../../Images/testimonial-bg.jpg';
+
+const Rating = () => {
+    const ratingBanner = {
+        width: "100%",
+        height: "400px",
+        color: "#000",
+        paddingTop: "100px",
+        backgroundImage: `url(${ratingBackground})`
+    }
+    const [ratings, setRatings] = useState([]);
+    useEffect(()=>{
+        fetch('http://localhost:5000/review')
+        .then(res => res.json())
+        .then(data=> setRatings(data))
+    },[])
+    return (
+        <div style={ratingBanner}>
+            <div className="container">
+            <div className="row">
+                    <h1>Few Words From Customer</h1>
+                </div>
+                <div className="row">
+                {
+                    ratings.map(rating =><Col xs={12} md={4} key={rating._id}>
+                      <div className="rating-box">
+                      <p>Rating: {rating.point}</p>
+                        <p>{rating.description}</p>
+                        <h4>{rating.name}</h4>
+                    </div>
+                    </Col>) 
+                    }
+                </div>
+            </div> 
+        </div>
+    );
+};
+
+export default Rating;

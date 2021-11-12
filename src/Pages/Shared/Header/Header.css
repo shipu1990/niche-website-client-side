@@ -1,0 +1,168 @@
+body {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+}
+.top-border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.footer-border {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+ul.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+ul.footer-nav li {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.top-nav {
+  display: flex;
+  font-size: 16px;
+  list-style: none;
+  margin-top: 20px;
+}
+.top-nav li {
+  padding: 0 17px;
+  border-right: 1px solid #0000001f;
+}
+.top-nav li:last-child {
+  border: none;
+}
+nav {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+nav a {
+  font-size: 15px;
+  color: #151313;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  margin: 0 30px;
+}
+.carousel-caption {
+  top: 30%;
+}
+.carousel-caption span {
+  font-size: 22px;
+}
+.carousel-caption h3 {
+  font-size: 54px;
+  font-weight: bold;
+}
+.carousel-caption p {
+  font-size: 20px;
+}
+.carousel-caption a {
+  background: white;
+  border: none;
+  text-decoration: none;
+  padding: 7px 15px;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+.product-head {
+  font-size: 18px;
+  padding-top: 22px;
+}
+.product-price {
+  padding-top: 5px;
+  font-size: 25px;
+  color: #a0a0a0;
+  font-weight: 700;
+}
+a.read-more-btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  color: #a0a0a0;
+  line-height: 40px;
+  border: 1px solid #a0a0a059;
+  margin-bottom: 50px;
+  font-size: 17px;
+}
+.banner-info {
+  text-align: left;
+}
+.common-btn {
+  background: white;
+  border: none;
+  text-decoration: none;
+  padding: 7px 15px;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+.rating-head {
+  color: #000;
+  font-size: 25px;
+}
+.rating-para {
+  color: #000;
+  font-size: 20px;
+}
+.from-box {
+  text-align: left;
+  padding: 30px;
+  border: 1px solid #ccc;
+  margin: 50px 0;
+  border-radius: 10px;
+}
+.from-box label {
+  font-size: 17px;
+  padding: 10px 0;
+}
+.from-box input {
+  line-height: 30px;
+  border: 1px solid #a0a0a059;
+}
+.from-box,
+.form-group {
+  margin: 10px 0;
+}
+.common-btn,
+.common-btn-home {
+  display: block;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  color: #a0a0a0;
+  line-height: 30px;
+  border: 1px solid #a0a0a059;
+  margin-bottom: 50px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.common-btn-home {
+  width: auto;
+}
+.content-page-404 {
+  padding: 100px 0 60px;
+}
+.title-error {
+  font-size: 300px;
+  line-height: 1;
+  color: #000;
+}
+.sub-title {
+  font-size: 50px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.nav-pills a {
+  line-height: 30px;
+  padding: 10px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "BERING AURORA COLLECTION",
+      "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 75,
+      "img": "https://i.ibb.co/c6RL2jK/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "BERING ROSE GOLD STEEL MESH",
+      "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 85,
+      "img": "https://i.ibb.co/W0CVCnn/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "BERING TITANIUM SUNRAY ORANGE",
+      "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 90,
+      "img": "https://i.ibb.co/vzrQfvc/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "CACTUS SUMMER SPLASH",
+      "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 95,
+      "img": "https://i.ibb.co/kmBSVpt/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "CLUSE LA BOHEME",
+      "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 105,
+      "img": "https://i.ibb.co/TTsgkC9/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "CLUSE MINUIT",
+      "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 110,
+      "img": "https://i.ibb.co/vP4vdRZ/6.jpg"
+    }
+  ]
