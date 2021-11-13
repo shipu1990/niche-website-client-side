@@ -10,7 +10,7 @@ const ManageOrder = () => {
       setStatus(e.target.value);
     };
     useEffect(()=>{
-        const url = `http://localhost:5000/orders`;
+        const url = `https://enigmatic-atoll-76450.herokuapp.com/orders`;
         console.log(url);
         fetch(url)
         .then(res => res.json())
@@ -18,7 +18,7 @@ const ManageOrder = () => {
     } ,[])
 
     const handleUpdate = (id) => {
-        fetch(`http://localhost:5000/updateStatus/${id}`, {
+        fetch(`https://enigmatic-atoll-76450.herokuapp.com/updateStatus/${id}`, {
           method: "PUT",
           headers: { "content-type": "application/json" },
           body: JSON.stringify({ status }),

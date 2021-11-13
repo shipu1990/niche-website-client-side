@@ -166,3 +166,7 @@ a.read-more-btn {
   padding: 10px;
   text-transform: uppercase;
 }
+.logo img {
+  margin-top: 20px;
+  width: 200px;
+}

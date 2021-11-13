@@ -2,8 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import {Col } from 'react-bootstrap';
 import ratingBackground from '../../../Images/testimonial-bg.jpg';
+import Rating from 'react-rating';
 
-const Rating = () => {
+const Ratings = () => {
     const ratingBanner = {
         width: "100%",
         height: "400px",
@@ -27,7 +28,9 @@ const Rating = () => {
                 {
                     ratings.map(rating =><Col xs={12} md={4} key={rating._id}>
                       <div className="rating-box">
-                      <p>Rating: {rating.point}</p>
+                      <p><Rating initialRating= {rating.point} readonly emptySymbol="far fa-star icon-color"
+  fullSymbol="fas fa-star icon-color">
+                   </Rating></p>
                         <p>{rating.description}</p>
                         <h4>{rating.name}</h4>
                     </div>
@@ -39,4 +42,4 @@ const Rating = () => {
     );
 };
 
-export default Rating;
+export default Ratings;
